@@ -1,0 +1,19 @@
+import(Rcpp)
+useDynLib(ranlip, .registration = TRUE)
+export(ranlip)
+export(ranlip.FreeMem)
+export(ranlip.Init)
+export(ranlip.LoadPartition)
+export(ranlip.PrepareHatFunction)
+export(ranlip.PrepareHatFunctionAuto)
+export(ranlip.RandomVec)
+export(ranlip.SavePartition)
+export(ranlip.Seed)
+export(ranlip.RandomVecN)
+
+
+
+
+
+
+
