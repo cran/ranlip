@@ -1,4 +1,4 @@
-4e6d1a44e63b325be47d2cc4eba95356 *DESCRIPTION
+6c5ee4d488ba089558f836a9d746edd5 *DESCRIPTION
 5f94ab1b8a9b757a2326a0aabcff5536 *NAMESPACE
 bae1c0481a73675a20b80f38801d79d4 *R/RcppExports.R
 881dd25e2f30566a7ec08029b764816c *inst/Ranlip.pdf
@@ -12,7 +12,7 @@ cd9b2212d32c7281f0d6765a2510178e *man/RandomVecN.Rd
 da016655d9f85b35ceb8295eafefdbf6 *man/SavePartition.Rd
 95a5f1105f99ab9461a7dde05c8ee1ef *man/Seed.Rd
 bcc63beefb385aad8a665d43f0af665d *man/ranlip.Rd
-b5e71a1eac29e5275bca475b478e5cba *src/RcppExports.cpp
+66d6651d04166aa9e7cb6bddce97ff8d *src/RcppExports.cpp
 fb0d39fe775c246718de1383c6eb5f38 *src/discrete.c
 9333422335fc03047513fada5aed144e *src/gsl_randist.h
 d98bef7534ade4e6c23cdd3b8c8be160 *src/ranlip.cpp

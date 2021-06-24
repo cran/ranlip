@@ -66,7 +66,7 @@ static const R_CMethodDef cMethods_Distribution[] = {
 
 
 
-SEXP Seed_R(SEXP seed);
+void  Seed_R(SEXP seed);
 RcppExport SEXP ranlip_Seed(SEXP seed) {
 BEGIN_RCPP
     Rcpp::RObject __result;
@@ -74,7 +74,7 @@ BEGIN_RCPP
 	Rcpp::traits::input_parameter< SEXP >::type Seed(seed);
    // __result = 
 	Seed_R(Seed);
-//    return __result;
+    return seed;
 END_RCPP
 }
 
@@ -93,7 +93,7 @@ static const R_CMethodDef cMethods_Seed[] = {
 
 
 
-SEXP Init_R(SEXP dim, SEXP left, SEXP right);
+void Init_R(SEXP dim, SEXP left, SEXP right);
 RcppExport SEXP ranlip_Init(SEXP dimSEXP, SEXP leftSEXP, SEXP rightSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
@@ -149,7 +149,7 @@ static const R_CMethodDef cMethods_RandomVec[] = {
 
 
 
-SEXP PrepareHatFunction_R(SEXP num, SEXP numfine, SEXP Lip, SEXP Fn);
+void  PrepareHatFunction_R(SEXP num, SEXP numfine, SEXP Lip, SEXP Fn);
 RcppExport SEXP ranlip_PrepareHatFunction(SEXP numSEXP, SEXP numfineSEXP, SEXP LipSEXP, SEXP FnSEXP) {
 BEGIN_RCPP
     Rcpp::RObject __result;
